@@ -24,14 +24,18 @@ Mathico, çocukların dört işlemde pratik yapması için hazırlanmış, tamam
 
 ### Cihazda saklanan bilgiler
 
-Uygulamanın çalışması için aşağıdaki bilgiler **yalnızca sizin cihazınızda** saklanır ve cihazdan dışarı çıkmaz:
+Uygulamanın çalışması için aşağıdaki bilgiler **yalnızca sizin cihazınızda** saklanır ve siz dışa aktarmadıkça cihazdan dışarı çıkmaz:
 
 - Profil adı (takma ad olabilir) ve seçilen avatar.
 - Alıştırma sonuçları, seviye ilerlemesi, doğruluk ve hız istatistikleri.
 - Kazanılan ödüller ve ekran süresi bakiyesi.
 - Ebeveyn alanı PIN kodu (cihazın güvenli anahtar zincirinde / Keychain şifrelenmiş olarak saklanır).
 
-Uygulamayı sildiğinizde bu verilerin tamamı cihazdan silinir.
+Ebeveyn alanından bir profili ve tüm ilerlemesini kalıcı olarak silebilirsiniz. Uygulamayı sildiğinizde bu verilerin tamamı cihazdan silinir.
+
+### Veri dışa aktarma
+
+Ebeveyn alanında (PIN korumalı) bulunan "Verileri dışa aktar" seçeneği, ilerleme raporunu bir dosya olarak oluşturur ve iOS paylaşım menüsünü açar. Dosyanın nereye gönderileceğine (ör. Dosyalar, Mail) yalnızca ebeveyn karar verir; Mathico bu dosyayı kendisi hiçbir yere göndermez.
 
 ### Ekran Süresi (Screen Time)
 
@@ -70,14 +74,18 @@ Mathico is a fully offline practice app that helps children practise the four ar
 
 ### Information stored on your device
 
-To work, the app stores the following **only on your device**; it never leaves the device:
+To work, the app stores the following **only on your device**; it never leaves the device unless you export it:
 
 - Profile name (can be a nickname) and chosen avatar.
 - Practice results, level progress, accuracy and speed statistics.
 - Earned rewards and screen-time balance.
 - The parent-area PIN (stored encrypted in the device Keychain).
 
-Deleting the app removes all of this data from the device.
+A profile and all of its progress can be permanently deleted from the parent area. Deleting the app removes all of this data from the device.
+
+### Data export
+
+The "Export data" option in the PIN-protected parent area creates a progress report file and opens the iOS share sheet. Only the parent decides where the file goes (e.g. Files, Mail); Mathico itself never sends it anywhere.
 
 ### Screen Time
 
